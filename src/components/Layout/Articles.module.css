@@ -1,0 +1,30 @@
+.container {
+  position: absolute;
+  top: 420px;
+  left: 10px;
+  width: 90vw;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.articleBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bgImgArticle {
+  height: auto;
+  width: 60%;
+}
+
+.articleText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 0.7rem;
+  text-align: left;
+  padding: 0 1rem;
+}

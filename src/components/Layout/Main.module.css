@@ -1,0 +1,17 @@
+.container {
+  position: relative;
+  height: 70vh;
+}
+
+.bgImage {
+  position: absolute;
+  width: 100vw;
+}
+
+.robotImage {
+  position: absolute;
+  width: 100vw;
+  transform: scale(0.5);
+  top: 50px;
+  left: 20px;
+}

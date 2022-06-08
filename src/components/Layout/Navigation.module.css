@@ -1,0 +1,9 @@
+.container {
+  height: 80px; 
+  z-index: 20;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+}
