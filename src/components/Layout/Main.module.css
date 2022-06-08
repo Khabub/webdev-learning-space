@@ -1,6 +1,9 @@
 .container {
   position: relative;
-  height: 70vh;
+  height: 100vh;
+  background-image: url("../../assets/Vectary_texturebackground.png");
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .bgImage {
@@ -10,8 +13,7 @@
 
 .robotImage {
   position: absolute;
-  width: 100vw;
-  transform: scale(0.5);
-  top: 50px;
-  left: 20px;
+  top: 310px;
+  right: 80px;  
 }
+

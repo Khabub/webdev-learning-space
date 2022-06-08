@@ -1,21 +1,23 @@
 .container {
-  position: absolute;
-  top: 420px;
-  left: 10px;
+  margin: 0 auto;  
   width: 90vw;
   height: auto;
   background-color: rgba(0, 0, 0, 0.5);
+  transform: translateY(-230px);
+  
 }
 
 .articleBox {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 
 .bgImgArticle {
   height: auto;
-  width: 60%;
+  width: 50%;
+  padding: 0 0.5rem;
 }
 
 .articleText {
@@ -23,8 +25,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
-  font-size: 0.7rem;
-  text-align: left;
+  color: white;  
   padding: 0 1rem;
+}
+
+.articleText h2 {
+  text-align: center;   
+  font-size: 1rem;
+}
+
+.articleText p {
+  text-align: center;   
+  font-size: 0.7rem;
 }
