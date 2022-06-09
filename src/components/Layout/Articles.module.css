@@ -1,23 +1,28 @@
 .container {
-  margin: 0 auto;  
-  width: 90vw;
-  height: auto;
+  position: absolute; 
+  top: 580px; 
   background-color: rgba(0, 0, 0, 0.5);
-  transform: translateY(-230px);
+  width: 100vw;
+  margin-bottom: 10rem;
   
 }
 
 .articleBox {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
-.bgImgArticle {
-  height: auto;
-  width: 50%;
+.bgImgArticle { 
+ 
+  width: 100%;
   padding: 0 0.5rem;
+}
+
+.bgImgArticle img {
+  height: auto;
+  max-height: 250px; 
 }
 
 .articleText {
@@ -26,15 +31,19 @@
   justify-content: center;
   align-items: center;
   color: white;  
-  padding: 0 1rem;
+  margin-right: 2rem;
 }
 
 .articleText h2 {
   text-align: center;   
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 .articleText p {
   text-align: center;   
-  font-size: 0.7rem;
+  font-size: 0.8rem;
+}
+
+.arrowImg {
+  transform: translateX(3rem);
 }

@@ -1,9 +1,16 @@
-.container {
+/* .container {
   position: absolute;
-  top: 50%;
+  top: 330px;
   left: 0;
-  width: 70vw;
+  width: 100vw;
   height: 20vh;
+  
+}
+ */
+
+ .container {
+  display: flex;
+  transform: translateY(20rem);
   
 }
 
