@@ -18,27 +18,3 @@
   transform: translateY(-20px);
   width: 70%;
 }
-
-@media (min-width: 365px) {
-  .container h1 {
-    color: rgb(255, 0, 34);
-  }
-}
-
-@media (min-width: 380px) {
-  .container h1 {
-    color: rgb(100, 233, 12);
-  }
-}
-
-@media (min-width: 400px) {
-  .container h1 {
-    color: rgb(25, 0, 255);
-  }
-}
-
-@media (min-width: 420px) {
-  .container h1 {
-    color: rgb(238, 255, 0);
-  }
-}

@@ -1,17 +1,28 @@
+.iconBox {  
+  width: 50px;
+  height: 50px;  
+  position: relative;
+  margin-right: 1rem;
+}
+
 .icon1 {
   position: absolute;
-  top: 30px;
-  right: 30px;
+  top: 15px;
+  right: 10px;
 }
 
 .icon2 {
   position: absolute;
-  top: 40px;
-  right: 30px;
+  top: 25px;
+  right: 10px;
 }
 
 .icon3 {
   position: absolute;
-  top: 50px;
-  right: 30px;
+  top: 35px;
+  right: 10px;
+}
+
+.iconBox:hover {
+  cursor: pointer;
 }

@@ -1,16 +1,12 @@
-/* .container {
-  position: absolute;
-  top: 330px;
-  left: 0;
-  width: 100vw;
-  height: 20vh;
-  
-}
- */
-
  .container {
   display: flex;
-  transform: translateY(20rem);
-  
+  transform: translateY(16rem);
 }
 
+@media (min-width: 700px) {
+  .container {
+    transform: translateY(11rem);
+  }
+
+
+}

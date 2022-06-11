@@ -1,27 +1,27 @@
-.container {
-  /* position: relative;
-  height: 100vw;
-  background-image: url("../../assets/Vectary_texturebackground.png");
-  background-repeat: no-repeat; */
-  /* background-position: right; */
-  
-
-}
-
 .bgImage {
   position: absolute;
   top: 80px;
   right: 0px; 
-  
-  
 }
 
 .robotImage {
   position: absolute;
   top: 215px;
-  right: 100px;  
-  
-  
-  
+  right: 100px;   
 }
 
+@media (min-width: 700px) {
+  .bgImage {
+    
+    top: 0px;
+     
+  }
+  
+  .robotImage {
+   
+    top: 135px;
+ 
+  }
+
+
+}

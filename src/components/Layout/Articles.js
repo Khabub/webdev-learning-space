@@ -9,8 +9,8 @@ const Articles = () => {
       <div className={classes.articleBox}>
         <div className={classes.bgImgArticle}>
           <img
-            src={bgImageArticle}            
-            alt="bg article"
+            src={bgImageArticle}
+            alt="bg article"            
           ></img>
         </div>
         <div className={classes.articleText}>

@@ -1,10 +1,8 @@
 .container {
-  position: absolute; 
-  top: 580px; 
+  position: absolute;
+  top: 580px;
   background-color: rgba(0, 0, 0, 0.5);
   width: 100vw;
-  margin-bottom: 10rem;
-  
 }
 
 .articleBox {
@@ -14,36 +12,70 @@
   align-items: center;
 }
 
-.bgImgArticle { 
- 
-  width: 100%;
-  padding: 0 0.5rem;
+.bgImgArticle {
+  padding: 0.5rem 1rem 0 1rem;
 }
 
 .bgImgArticle img {
-  height: auto;
-  max-height: 250px; 
+  height: 100px;
 }
 
 .articleText {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  color: white;  
-  margin-right: 2rem;
+  align-items: flex-start;
+  color: white;
+  padding: 0 1rem;
 }
 
 .articleText h2 {
-  text-align: center;   
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .articleText p {
-  text-align: center;   
-  font-size: 0.8rem;
+  font-size: 0.6rem;
+  transform: translateY(-1rem);
 }
 
 .arrowImg {
-  transform: translateX(3rem);
+  transform: translateX(4rem) translateY(-1rem) scale(0.8);
+  transition:all 0.5s ease-out;
+}
+
+.arrowImg:hover {
+  cursor: pointer;
+  transform: translateX(4.5rem) translateY(-1rem) scale(0.8);
+  transition:all 0.5s ease-out;
+}
+
+@media (min-width: 400px) {
+  .bgImgArticle img {
+    height: 150px;
+  }
+
+  .arrowImg {
+    transform: translateX(5rem);
+  }
+
+  .arrowImg:hover {    
+    transform: translateX(5.5rem);
+    transition:all 0.5s ease-out;
+  }
+
+}
+
+@media (min-width: 700px) {
+  .bgImgArticle img {
+    height: 250px;
+  }
+
+  .arrowImg {
+    transform: translateX(12rem);
+  }
+
+  .arrowImg:hover {    
+    transform: translateX(13rem);
+    transition:all 0.5s ease-out;
+  }
 }

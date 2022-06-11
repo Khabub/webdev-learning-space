@@ -10,7 +10,7 @@ const App = () => {
       <Navigation />
       <Main />
       <Pages />
-      {/* <Articles /> */}
+      <Articles />
     </Fragment>
   );
 };
