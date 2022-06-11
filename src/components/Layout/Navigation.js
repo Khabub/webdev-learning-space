@@ -3,12 +3,12 @@ import classes from "./Navigation.module.css";
 import NavLogo from "../UI/NavLogo";
 import NavIcon from "../UI/NavIcon";
 
-const Navigation = () => {
+const Navigation = (props) => {
 
   return (
     <div className={classes.container}>
       <NavLogo />
-      <NavIcon />
+      <NavIcon onShow={props.onShow}/>
     </div>
   );
 };

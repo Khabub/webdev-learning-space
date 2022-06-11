@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   padding: 0 1rem;  
+  animation: pagesFade 0.5s ease-in forwards;
 }
 
 .container h1 {
@@ -17,4 +18,14 @@
   font-size: .8rem;
   transform: translateY(-20px);
   width: 70%;
+}
+
+@keyframes pagesFade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }

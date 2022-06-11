@@ -1,5 +1,4 @@
- .container {
-  display: flex;
+.container {
   transform: translateY(16rem);
 }
 
@@ -7,6 +6,4 @@
   .container {
     transform: translateY(11rem);
   }
-
-
 }

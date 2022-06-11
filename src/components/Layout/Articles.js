@@ -8,10 +8,9 @@ const Articles = () => {
     <div className={classes.container}>
       <div className={classes.articleBox}>
         <div className={classes.bgImgArticle}>
-          <img
-            src={bgImageArticle}
-            alt="bg article"            
-          ></img>
+          <a href="#exploration">
+            <img src={bgImageArticle} alt="bg article"></img>
+          </a>
         </div>
         <div className={classes.articleText}>
           <h2>Exploration</h2>

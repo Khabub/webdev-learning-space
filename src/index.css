@@ -1,12 +1,10 @@
 html {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
   margin: 0;
-  padding: 0;  
+  padding: 0;
   background: linear-gradient(289.6deg, #0c0c0c 0%, #2c4550 98.22%);
-  width: 100vw;
   height: 100vh;
-
 }

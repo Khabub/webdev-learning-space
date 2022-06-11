@@ -39,14 +39,16 @@
 }
 
 .arrowImg {
-  transform: translateX(4rem) translateY(-1rem) scale(0.8);
-  transition:all 0.5s ease-out;
+  position: absolute;
+  top: 90px;
+  right: 50px;
+  transition: all 0.5s ease-out;
 }
 
 .arrowImg:hover {
   cursor: pointer;
-  transform: translateX(4.5rem) translateY(-1rem) scale(0.8);
-  transition:all 0.5s ease-out;
+  right: 40px;
+  transition: all 0.5s ease-out;
 }
 
 @media (min-width: 400px) {
@@ -55,27 +57,34 @@
   }
 
   .arrowImg {
-    transform: translateX(5rem);
+    top: 120px;
+    right: 60px;
+    transition: all 0.5s ease-out;
   }
 
-  .arrowImg:hover {    
-    transform: translateX(5.5rem);
-    transition:all 0.5s ease-out;
+  .arrowImg:hover {
+    right: 50px;
+    transition: all 0.5s ease-out;
   }
-
 }
 
 @media (min-width: 700px) {
+  .container {
+    top: 550px;
+  }
+
   .bgImgArticle img {
     height: 250px;
   }
 
   .arrowImg {
-    transform: translateX(12rem);
+    top: 200px;
+    right: 60px;
+    transition: all 0.5s ease-out;
   }
 
-  .arrowImg:hover {    
-    transform: translateX(13rem);
-    transition:all 0.5s ease-out;
+  .arrowImg:hover {
+    right: 50px;
+    transition: all 0.5s ease-out;
   }
 }
