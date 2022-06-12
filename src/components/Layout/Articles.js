@@ -17,6 +17,10 @@ const Articles = () => {
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
           <img src={arrowImg} className={classes.arrowImg} alt="arrow"></img>
         </div>
+        <div className={classes.footprint}>
+          <h2>Footprint</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur.</p>
+        </div>
       </div>
     </div>
   );

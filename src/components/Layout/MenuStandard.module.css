@@ -1,0 +1,19 @@
+.menuStandardList {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menuStandardList a {
+  color: white;
+  margin-right: 3rem;
+  text-decoration: none;
+}
+
+.menuStandardList a:hover,
+.menuStandardList a.active,
+.menuStandardList a:active {
+  border-bottom: 3px solid rgb(182, 182, 216);
+  color: rgb(182, 182, 216);
+  text-shadow: 0px 0px 15px white;
+}

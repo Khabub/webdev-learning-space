@@ -3,6 +3,7 @@
   top: 580px;
   background-color: rgba(0, 0, 0, 0.5);
   width: 100vw;
+  padding: 0.5rem 0;
 }
 
 .articleBox {
@@ -27,6 +28,7 @@
   align-items: flex-start;
   color: white;
   padding: 0 1rem;
+  position: relative;
 }
 
 .articleText h2 {
@@ -38,16 +40,20 @@
   transform: translateY(-1rem);
 }
 
+.footprint {
+  display: none;
+}
+
 .arrowImg {
   position: absolute;
-  top: 90px;
-  right: 50px;
+  top: 85px;
+  right: 30px;
   transition: all 0.5s ease-out;
 }
 
 .arrowImg:hover {
   cursor: pointer;
-  right: 40px;
+  right: 20px;
   transition: all 0.5s ease-out;
 }
 
@@ -55,36 +61,45 @@
   .bgImgArticle img {
     height: 150px;
   }
-
-  .arrowImg {
-    top: 120px;
-    right: 60px;
-    transition: all 0.5s ease-out;
-  }
-
-  .arrowImg:hover {
-    right: 50px;
-    transition: all 0.5s ease-out;
-  }
 }
 
 @media (min-width: 700px) {
   .container {
-    top: 550px;
+    top: 650px;
   }
 
   .bgImgArticle img {
     height: 250px;
   }
 
+  .footprint {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    padding: 0 1rem;
+  }
+
+  .footprint h2 {
+    font-size: 1rem;
+  }
+
+  .footprint p {
+    font-size: 0.6rem;
+    transform: translateY(-1rem);
+  }
+
   .arrowImg {
-    top: 200px;
-    right: 60px;
+    position: absolute;
+    top: 110px;
+    right: 30px;
     transition: all 0.5s ease-out;
   }
 
   .arrowImg:hover {
-    right: 50px;
+    position: absolute;
+    right: 20px;
     transition: all 0.5s ease-out;
   }
 }

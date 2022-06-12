@@ -11,7 +11,7 @@ import classes from "./MenuHam.module.css";
 const MenuHam = (props) => {
   return (
     <Modal onClose={props.onClose}>
-      <ul>
+      <ul className={classes.menuHamList}>
         <li>
           <NavLink
             to="home"

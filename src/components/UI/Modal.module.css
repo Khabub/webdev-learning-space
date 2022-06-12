@@ -5,6 +5,7 @@
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(2px);
   z-index: 9;
 }
 
@@ -20,7 +21,6 @@
   animation: slideMenu 0.5s ease-out;
 }
 
-
 @keyframes slideMenu {
   from {
     opacity: 0;
@@ -31,5 +31,4 @@
     opacity: 1;
     transform: translateX(0px);
   }
-  
 }

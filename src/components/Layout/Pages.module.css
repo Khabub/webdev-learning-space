@@ -4,6 +4,6 @@
 
 @media (min-width: 700px) {
   .container {
-    transform: translateY(11rem);
+    transform: translateY(15rem);
   }
 }

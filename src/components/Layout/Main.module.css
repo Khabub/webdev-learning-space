@@ -4,22 +4,53 @@
   right: 0px;
 }
 
-.robotImage {
-  position: absolute;
-  top: 215px;
-  right: 100px;
+.bgImageDesktop {
+  display: none;
 }
 
-/* @media (min-width: 700px) {
+.robotImage {
+  position: absolute;
+  right: 100px;
+  animation: robotJump 2s ease-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes robotJump {
+  from {
+    top: 215px;
+  }
+
+  to {
+    top: 190px;
+  }
+}
+
+@media (min-width: 700px) {
   .bgImage {
+    display: none;
+  }
+
+  .bgImageDesktop {
+    display: block;
     position: absolute;
-    top: 0px;
-    right: 0px;
+    top: -50px;
+    right: -150px;
   }
 
   .robotImage {
     position: absolute;
-    top: 135px;
-    right: 100px;
+    right: 420px;
+    transform: scale(1.4);
   }
-} */
+
+  @keyframes robotJump {
+    from {
+      top: 150px;
+    }
+
+    to {
+      top: 125px;
+    }
+  }
+}

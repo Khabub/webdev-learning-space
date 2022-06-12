@@ -21,9 +21,7 @@ const App = () => {
       {toggleMenu && <MenuHam onClose={closeMenu} />}
       <Navigation onShow={hamMenu} />
       <Main />
-      
-        <Pages />
-      
+      <Pages />
       <Articles />
     </Fragment>
   );
