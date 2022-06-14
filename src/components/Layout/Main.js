@@ -7,16 +7,22 @@ import classes from "./Main.module.css";
 const Main = () => {
   return (
     <div className={classes.container}>
-      <img
-        src={backgroundImage}
-        alt="background"
-        className={classes.bgImage}
-      ></img>
-      {/* <img
-        src={backgroundImageDesktop}
-        alt="background"
-        className={classes.bgImageDesktop}
-      ></img> */}
+     
+        <img
+          src={backgroundImage}
+          alt="background"
+          className={classes.bgImage}
+        ></img>
+  
+        <img
+          src={backgroundImageDesktop}
+          alt="background"
+          className={classes.bgImageDesktop}
+        ></img>
+      <div className={classes.boxLeft}>
+
+      </div>
+  
 
       <img src={robotImage} alt="robot" className={classes.robotImage}></img>
     </div>

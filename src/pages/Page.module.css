@@ -29,3 +29,10 @@
     opacity: 1;
   }
 }
+
+
+@media (min-width: 1400px) {
+  .container h1 {
+    font-size: 3.5rem;
+  }
+}

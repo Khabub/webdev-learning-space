@@ -1,10 +1,11 @@
-import React, { Fragment } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
+import sunIcon from "../../assets/Vectorsun.png";
 import classes from "./MenuStandard.module.css";
 
 const MenuStandard = (props) => {
   return (
-    <Fragment>
+    <div className={classes.container}>
       <ul className={classes.menuStandardList}>
         <li className={classes.linkList}>
           <NavLink
@@ -47,7 +48,11 @@ const MenuStandard = (props) => {
           </NavLink>
         </li>
       </ul>
-      </Fragment>
+
+      <div className={classes.sun}>
+        <img src={sunIcon} alt="sun icon"></img>
+      </div>
+    </div>
   );
 };
 

@@ -27,8 +27,12 @@ const Navigation = (props) => {
 
   return (
     <div className={classes.container}>
-      <NavLogo />
-      {icon ? <NavIcon onShow={props.onShow} /> : <MenuStandard />}
+      <div className={classes.navlogo}>
+        <NavLogo />
+      </div>
+      <div className={classes.navmenu}>
+        {icon ? <NavIcon onShow={props.onShow} /> : <MenuStandard />}
+      </div>
     </div>
   );
 };

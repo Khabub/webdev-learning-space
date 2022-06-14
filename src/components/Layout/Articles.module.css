@@ -65,7 +65,7 @@
 
 @media (min-width: 700px) {
   .container {
-    top: 650px;
+    top: 500px;
   }
 
   .bgImgArticle img {
@@ -101,5 +101,46 @@
     position: absolute;
     right: 20px;
     transition: all 0.5s ease-out;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    position: absolute;
+    top: 700px;
+    left: 157px;
+    width: 88vw;
+  }
+
+  .bgImgArticle img {
+    height: 350px;
+  }
+
+  .footprint h2,
+  .articleText h2 {
+    font-size: 1.8rem;
+  }
+
+  .footprint p,
+  .articleText p {
+    font-size: 1rem;
+    transform: translateY(-1rem);
+  }
+
+  .arrowImg {
+    top: 180px;
+    right: 50px;
+    transform: scale(1.5);
+  }
+
+  .arrowImg:hover {
+    right: 40px;
+  }
+
+  .articleBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
   }
 }
