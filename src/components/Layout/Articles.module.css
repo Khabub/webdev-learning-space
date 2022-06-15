@@ -1,7 +1,7 @@
 .container {
   position: absolute;
   top: 580px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #00000080;
   width: 100vw;
   padding: 0.5rem 0;
 }
@@ -26,7 +26,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  color: white;
+  color: #ffffff;
   padding: 0 1rem;
   position: relative;
 }
@@ -107,13 +107,23 @@
 @media (min-width: 1400px) {
   .container {
     position: absolute;
-    top: 700px;
-    left: 157px;
-    width: 88vw;
+    /* inset: 650px 0 0 157px; */
+    left: 158px;
+    top: 750px;
+  }
+
+  .articleBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+    height: 300px;
   }
 
   .bgImgArticle img {
-    height: 350px;
+    width: 350px;
+    height: auto;
   }
 
   .footprint h2,
@@ -135,12 +145,5 @@
 
   .arrowImg:hover {
     right: 40px;
-  }
-
-  .articleBox {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
   }
 }

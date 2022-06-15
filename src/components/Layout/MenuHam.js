@@ -58,10 +58,10 @@ const MenuHam = (props) => {
           <img src={fbIcon} alt="fb"></img>
         </a>
         <a href="https://instagram.com" target="_blank" rel="noreferrer">
-        <img src={igIcon} alt="ig"></img>
+          <img src={igIcon} alt="ig"></img>
         </a>
         <a href="https://twitter.com" target="_blank" rel="noreferrer">
-        <img src={twitIcon} alt="twitter"></img>
+          <img src={twitIcon} alt="twitter"></img>
         </a>
       </div>
       <div className={classes.sun}>

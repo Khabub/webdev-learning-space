@@ -30,6 +30,12 @@
   transform: scale(0.8) translateY(0.2rem);
 }
 
+.sun img:hover {
+  transform: rotate(90deg);
+  transition: all 1s ease-in-out;
+  cursor: pointer;
+}
+
 @media (min-width: 1400px) {
   .menuStandardList a {
     font-size: 1.5rem;

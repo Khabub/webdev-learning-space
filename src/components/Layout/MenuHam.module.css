@@ -27,7 +27,7 @@
 }
 
 .icons > a:hover {
-  transform: scale(1.2);  
+  transform: scale(1.2);
   transition: all 0.3s ease-in-out;
 }
 
@@ -43,4 +43,10 @@
 .sun > img {
   transform: scale(0.8);
   margin-left: 1rem;
+}
+
+.sun img:hover {
+  transform: rotate(90deg);
+  transition: all 1s ease-in-out;
+  cursor: pointer;
 }

@@ -1,6 +1,6 @@
-.iconBox {  
+.iconBox {
   width: 50px;
-  height: 50px;  
+  height: 50px;
   position: relative;
   margin-right: 1rem;
 }
@@ -24,7 +24,6 @@
 }
 
 .iconBox:hover {
-  cursor: pointer; 
-  user-select: none; 
+  cursor: pointer;
+  user-select: none;
 }
-

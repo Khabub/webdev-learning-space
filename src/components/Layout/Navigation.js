@@ -5,7 +5,7 @@ import NavIcon from "../UI/NavIcon";
 import MenuStandard from "./MenuStandard";
 
 const Navigation = (props) => {
-  const [icon, setIcon] = useState();
+  const [icon, setIcon] = useState("noshow");
 
   const handleWindowSize = useCallback(() => {
     window.innerWidth > 700 ? setIcon(false) : setIcon(true);
@@ -31,7 +31,13 @@ const Navigation = (props) => {
         <NavLogo />
       </div>
       <div className={classes.navmenu}>
-        {icon ? <NavIcon onShow={props.onShow} /> : <MenuStandard />}
+        {icon === "noshow" ? (
+          ""
+        ) : icon ? (
+          <NavIcon onShow={props.onShow} />
+        ) : (
+          <MenuStandard />
+        )}
       </div>
     </div>
   );

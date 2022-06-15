@@ -1,7 +1,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  padding: 0 1rem;  
+  padding: 0 1rem;
   animation: pagesFade 0.5s ease-in forwards;
 }
 
@@ -15,7 +15,7 @@
 
 .container p {
   color: white;
-  font-size: .8rem;
+  font-size: 0.8rem;
   transform: translateY(-20px);
   width: 70%;
 }
@@ -29,7 +29,6 @@
     opacity: 1;
   }
 }
-
 
 @media (min-width: 1400px) {
   .container h1 {

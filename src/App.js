@@ -28,3 +28,7 @@ const App = () => {
 };
 
 export default App;
+
+// nefunkční hover na logo při rozlišení > 1400
+// z-index nefunguje, buď fungují ikony fb, ig, twitter a nebo logo,
+// dohromady nejde

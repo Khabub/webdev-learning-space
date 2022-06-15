@@ -9,12 +9,23 @@
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1000px) {
+  .container {
+    max-width: 800px;
+    transform: translateY(5rem) translateX(7rem);
+  }
+}
 
+@media (min-width: 1400px) {
   .container {
     max-width: 800px;
     transform: translateY(10rem) translateX(11rem);
-
   }
+}
 
+@media (min-width: 1600px) {
+  .container {
+    max-width: 800px;
+    transform: translateY(10rem) translateX(20rem);
+  }
 }
