@@ -106,8 +106,7 @@
 
 @media (min-width: 1400px) {
   .container {
-    position: absolute;
-    /* inset: 650px 0 0 157px; */
+    position: absolute;    
     left: 158px;
     top: 750px;
   }
@@ -115,7 +114,7 @@
   .articleBox {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     padding: 0;
     height: 300px;
@@ -135,6 +134,7 @@
   .articleText p {
     font-size: 1rem;
     transform: translateY(-1rem);
+    padding-right: 10rem;
   }
 
   .arrowImg {

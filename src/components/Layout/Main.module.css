@@ -65,8 +65,8 @@
 
   .iconsBox {
     position: absolute;
-    top: -56px;
-    left: 100px;
+    top: -10px;
+    left: -15px;
     transform: scale(0.7);
   }
   .icons {
@@ -76,7 +76,7 @@
   }
 
   .icons a {
-    margin-left: 0.7rem;
+    margin-left: 1.7rem;
   }
 
   .icons a:hover {
@@ -87,6 +87,28 @@
 }
 
 @media (min-width: 1400px) {
+  .iconsBox {
+    position: absolute;
+    left: 20px;
+    top: 75%;
+    transform: scale(1);
+  }
+  .icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icons a {
+    margin-bottom: 3rem;
+  }
+
+  .icons a:hover {
+    transform: scale(1.5);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
   .boxLeft {
     position: absolute;
     left: 15px;
@@ -117,25 +139,5 @@
     }
   }
 
-  .iconsBox {
-    position: absolute;
-    left: 40px;
-    top: 75%;
-    transform: scale(1);
-  }
-  .icons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .icons a {
-    margin-bottom: 3rem;
-  }
-
-  .icons a:hover {
-    transform: scale(1.5);
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
-  }
+  
 }
