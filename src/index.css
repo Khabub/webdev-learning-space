@@ -5,7 +5,8 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(289.6deg, #0c0c0c 0%, #2c4550 98.22%);
+  background: linear-gradient(270.6deg, #0c0c0c 0%, #2c4550 99%);
+  
   height: 100vh;
   overflow-x: hidden;
 }
