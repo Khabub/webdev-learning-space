@@ -1,9 +1,10 @@
-import { Fragment, useState } from "react";
+import { useState } from "react";
 import Pages from "./components/Layout/Pages";
 import Main from "./components/Layout/Main";
 import Navigation from "./components/Layout/Navigation";
 import Articles from "./components/Layout/Articles";
 import MenuHam from "./components/Layout/MenuHam";
+import { DarkLightProvider } from "./store-context";
 
 const App = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -17,18 +18,14 @@ const App = () => {
   };
 
   return (
-    <Fragment>
+    <DarkLightProvider>
       {toggleMenu && <MenuHam onClose={closeMenu} />}
       <Navigation onShow={hamMenu} />
       <Main />
       <Pages />
       <Articles />
-    </Fragment>
+    </DarkLightProvider>
   );
 };
 
 export default App;
-
-// nefunkční hover na logo při rozlišení > 1400
-// z-index nefunguje, buď fungují ikony fb, ig, twitter a nebo logo,
-// dohromady nejde

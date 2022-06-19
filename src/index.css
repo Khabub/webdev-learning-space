@@ -6,7 +6,18 @@ body {
   margin: 0;
   padding: 0;
   background: linear-gradient(270.6deg, #0c0c0c 0%, #2c4550 99%);
-  
   height: 100vh;
   overflow-x: hidden;
+}
+
+.darkSun {
+  color: rgb(148, 148, 148);
+}
+
+.lightSun {
+  color: #fff;
+}
+
+.filterSun {
+  filter: invert(45%);
 }

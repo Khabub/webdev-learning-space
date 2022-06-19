@@ -31,7 +31,8 @@
   transform: scale(0.8) translateY(0.2rem);
 }
 
-.sun img:hover {
+.sun img:hover
+{
   transform: rotate(90deg);
   transition: all 1s ease-in-out;
   cursor: pointer;

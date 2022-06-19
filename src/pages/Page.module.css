@@ -5,8 +5,7 @@
   animation: pagesFade 0.5s ease-in forwards;
 }
 
-.container h1 {
-  color: white;
+.container h1 {  
   font-weight: 700;
   font-size: 2.7rem;
   line-height: 3rem;
@@ -14,7 +13,6 @@
 }
 
 .container p {
-  color: white;
   font-size: 0.8rem;
   transform: translateY(-20px);
   width: 70%;
